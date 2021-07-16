@@ -131,7 +131,6 @@ PlayerSettings:
   preloadedAssets:
   - {fileID: 3816409373110037113, guid: 0b8fc0705e45eab429b6b380cf9e70d0, type: 2}
   - {fileID: -7982474799689965397, guid: fdcbf541a6a96c94aae8870a76550215, type: 2}
-  - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -582,7 +581,8 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    14: 
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -604,11 +604,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: OpenXrDemo
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: windperson.idv
+  metroCertificateIssuer: windperson.idv
+  metroCertificateNotAfter: 006bd7d06f98d801
   metroApplicationDescription: OpenXR Demo Project
   wsaImages: {}
   metroTileShortName: HL2Tutorial
